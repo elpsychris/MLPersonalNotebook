@@ -28,8 +28,8 @@ My notebook of exercises, blogs and related resource I read in free time
 ANSWER:
 
 - According to the concept, the output value of a NoP is:
-  * 0 if Sigma(‡”<sub>j</sub>w<sub>j</sub>x<sub>j</sub> <= *threshold 
-  * 1 if Sigma(‡”<sub>j</sub>w<sub>j</sub>x<sub>j</sub> > *threshold
+  * 0 if Sum of (wj)(xj) <= *threshold*
+  * 1 if Sum of (wj)(xj) > *threshold*
 
   Therefore if before value is 0, new value is still 0*c = 0 and the same with 1
 ```
