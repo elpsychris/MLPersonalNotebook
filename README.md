@@ -20,7 +20,7 @@ My notebook of exercises, blogs and related resource I read in free time
 #### 2. Sigmoid neurons
 - [ ] demo project
 - [ ] note
-- [ ] doing exercise
+- [x] doing exercise
   ##### 2.c. Exercise
 1. Sigmoid neurons simulating perceptrons, part I  
 
@@ -45,7 +45,7 @@ hence when c comes to infinity (c>0) the output value will tend to 0 if z < 0
 and tend to 1 if z > 0. The same thing happened with the perceptrons.
 ```
 
-Suppose the weights and biases are such that (wj)x+b != 0 for the input x to any particular perceptron in the network. Now replace all the perceptrons in the network by sigmoid neurons, and multiply the weights and biases by a positive constant c>0. Show that in the limit as c¨inf. the behaviour of this network of sigmoid neurons is exactly the same as the network of perceptrons. How can this fail when (wj)x+b=0 for one of the perceptrons?
+Suppose the weights and biases are such that (wj)x+b != 0 for the input x to any particular perceptron in the network. Now replace all the perceptrons in the network by sigmoid neurons, and multiply the weights and biases by a positive constant c>0. Show that in the limit as c->inf. the behaviour of this network of sigmoid neurons is exactly the same as the network of perceptrons. How can this fail when (wj)x+b=0 for one of the perceptrons?
 
 ```
 ANSWER:
