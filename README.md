@@ -9,8 +9,10 @@ My notebook of exercises, blogs and related resource I read in free time
 - [ ] note
 - [ ] doing exercise
 
-#### 2. Signmoid neurons
+#### 2. Sigmoid neurons
 - [ ] demo project
 - [ ] note
 - [ ] doing exercise
   ##### 2.c. Exercise
+    1. Sigmoid neurons simulating perceptrons, part I  
+    *Suppose we take all the weights and biases in a network of perceptrons, and multiply them by a positive constant, c>0. Show that the behaviour of the network doesn't change.*
