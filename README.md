@@ -13,5 +13,4 @@ My notebook of exercises, blogs and related resource I read in free time
 - [ ] demo project
 - [ ] note
 - [ ] doing exercise
-
   ##### 2.c. Exercise
