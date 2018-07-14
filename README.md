@@ -40,14 +40,17 @@ Suppose we have the same setup as the last problem - a network of perceptrons. S
 ```
 ANSWER:
 
-- Delta(output) is a linear function of changes Delta(wj) and Delta(b), hence when c comes to infinity (c>0) the output value will tend to 0 if z < 0 and tend to 1 if z > 0. The same thing happened with the perceptrons.
+- Delta(output) is a linear function of changes Delta(wj) and Delta(b),
+hence when c comes to infinity (c>0) the output value will tend to 0 if z < 0
+and tend to 1 if z > 0. The same thing happened with the perceptrons.
 ```
 
-Suppose the weights and biases are such that w?x+b‚0 for the input x to any particular perceptron in the network. Now replace all the perceptrons in the network by sigmoid neurons, and multiply the weights and biases by a positive constant c>0. Show that in the limit as c¨‡ the behaviour of this network of sigmoid neurons is exactly the same as the network of perceptrons. How can this fail when w?x+b=0 for one of the perceptrons?
+Suppose the weights and biases are such that (wj)x+b != 0 for the input x to any particular perceptron in the network. Now replace all the perceptrons in the network by sigmoid neurons, and multiply the weights and biases by a positive constant c>0. Show that in the limit as c¨inf. the behaviour of this network of sigmoid neurons is exactly the same as the network of perceptrons. How can this fail when (wj)x+b=0 for one of the perceptrons?
 
 ```
 ANSWER:
 
-- For the signoid when z = 0 => output = 1 / 1 + e^0 = 0.5 !== 0 in the perceptrons case, hence leads to different behavior afterward. 
+- For the signoid when z = 0 => output = 1 / 1 + e^0 = 0.5 !== 0 in the perceptrons case,
+hence leads to different behavior afterward. 
 ```
 
